@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+     
+    <!--A img é o próprio conteúdo da tag e possui atributos que configuram a renderização da imagem. O alt é para fins de acessibilidade, pois quando a imagem não é carregada, o alt fornece um texto descritivo da imagem. Quanto mais detalhada e clara for a descrição, melhor a experiência do usuário ao tentar identificar o que está sendo representado.-->
+    
+    <h2>Trabalhando com imagens</h2>
+    
+    <!-- scr -> É o caminho, a fonte ou a origem do arquivo dentro da máquina.-->
+    <!-- alt = texto descritivo da imagem-->
+    <!--Height - representa a  altura da imagem--> 
+    
+    <img src="735529139526786f88af0aa84a980e9f.jpg" alt="Papel de Parede do Homem aranha" height="300">
+    
+     
+    
+    <figure> <!--É um tag semântica utilizada para envolver a tag img.  Comumente utilizada em galerias. -->
+       
+    <figcaption> <!--É uma legenda usada geralmente para descrever a imagem e apresentar o contexto dela, ou fazer referência ao autor da imagem, por exemplo. -->
+
+    </figcaption> wallpaper Homem aranha</figure>
+    
+    <!--É possível controlar a altura e largura da img através de atributos.-->
+    <!--width(largura) - representa a largura/comprimento da imagem -->
+    <!--Height(altura) - representa a  altura da imagem--> 
+    
+<!--complemento sobre as imagens 28/07/25-->
+ <picture>
+    <source srcset="homem aranha.jpg" type="image/jpg">
+    <source srcset="homem aranha.png" type="image/png">
+    <source srcset="homem aranha.jpeg" type="image/jpeg">
+
+<!-- Fallback = imagem padrão caso as imagens anteriores falhem ou não sejam suportadas-->
+
+<img src="Bolo de ninho 2.webp" alt="Bolo de leite ninho">
+
+</picture>
+
+</body>
+</html>
